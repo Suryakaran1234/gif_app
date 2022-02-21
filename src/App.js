@@ -1,11 +1,15 @@
 import './App.css';
+import Random from './components/Random_V2';
+import Tag from './components/Tag_V2';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
+const App = () => (
+  <div>
+    <h1>Random GIF Application</h1>
+    <div className='main-container'>
+      <Random />
+      <Tag />
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
